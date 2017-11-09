@@ -1,0 +1,82 @@
+# Project information
+site_name: 'Documentation - Bastion Bot'
+site_description: 'Welcome to the Documentation Website of The Bastion Bot.'
+site_url: 'https://docs.bastionbot.org'
+site_author: 'Sankarsan Kampa'
+
+# Repository
+repo_name: 'BastionBotDocs'
+repo_url: 'https://github.com/TheBastionBot/BastionBotDocs'
+edit_uri: edit/master/docs/
+
+# Copyright
+copyright: 'Copyright &copy; 2017 - The Bastion Bot Project'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  custom_dir: 'theme'
+  palette:
+    primary: 'grey'
+    accent: 'cyan'
+  font:
+    text: 'Roboto'
+    code: 'Source Code Pro'
+  logo: 'assets/images/BastionLogo_Text_White.png'
+  feature:
+    tabs: true
+
+extra_css:
+  - 'assets/stylesheets/extra.css'
+extra_javascript:
+  - 'assets/javascripts/extra.js'
+
+# Options
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/TheBastionBot'
+    - type: 'twitter'
+      link: 'https://twitter.com/TheBastionBot'
+    - type: 'discord'
+      link: 'https://discord.gg/fzx8fkt'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - footnotes
+  - meta
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - toc:
+      permalink: '#'
+  - smarty
+
+# Pages
+pages:
+  - Home:
+    - The Bastion Bot: 'home.md'
+  - Documentation:
+    - Intro: 'index.md'
+    - Get Started: 'get-started.md'
+    - Get API Keys: 'api-keys.md'
+    - Install:
+      - Install on Linux: 'install-linux.md'
+      - Install on macOS: 'install-macos.md'
+      - Install on Windows : 'install-win.md'
+    - Update: 'update.md'
+
+# Development
+dev_addr: '0.0.0.0:80'
