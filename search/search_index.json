@@ -1,0 +1,184 @@
+{
+    "docs": [
+        {
+            "location": "/home/", 
+            "text": "Redirecting\n#\n\n\nRedirecting you to the Homepage of The Bastion Bot in a few moments.\n\n\nIf you are not automatically being redirected, please visit:\n\nbastionbot.org", 
+            "title": "The Bastion Bot"
+        }, 
+        {
+            "location": "/home/#redirecting", 
+            "text": "Redirecting you to the Homepage of The Bastion Bot in a few moments.  If you are not automatically being redirected, please visit: bastionbot.org", 
+            "title": "Redirecting..."
+        }, 
+        {
+            "location": "/", 
+            "text": "Introduction\n#\n\n\nWelcome to The Bastion Bot Documentation Site.\n\n\nHere you\nll find documentation on how to install, set up, run and update\nBastion, so that you can empower your Discord server and have an awesome bot\nfor your communities.\n\n\nAll of our \ndocumentation is on GitHub\n\nand we would \n corrections and improvements!\n\n\n\n\n\nTo start reading the documentation you can either click \nNext\n at the bottom\nright corner, or \nclick here\n.\n\n\n\n\n\nCome hang out in our \nofficial Discord server\n\nif you wanna chat with other users, as well as the devs, and see what\ns\nbeing cranked out.\n\n\nWe look forward to seeing you make your Discord server AMAZING!\n\n\n\n  \n\n    \nYou\nve been invited to join\n\n    \n\n    \n\n      \nThe Bastion Bot\n\n      \nbe awesome!\n\n    \n\n    \nJoin", 
+            "title": "Intro"
+        }, 
+        {
+            "location": "/#introduction", 
+            "text": "Welcome to The Bastion Bot Documentation Site.  Here you ll find documentation on how to install, set up, run and update\nBastion, so that you can empower your Discord server and have an awesome bot\nfor your communities.  All of our  documentation is on GitHub \nand we would   corrections and improvements!   To start reading the documentation you can either click  Next  at the bottom\nright corner, or  click here .   Come hang out in our  official Discord server \nif you wanna chat with other users, as well as the devs, and see what s\nbeing cranked out.  We look forward to seeing you make your Discord server AMAZING!  \n   \n     You ve been invited to join \n     \n     \n       The Bastion Bot \n       be awesome! \n     \n     Join", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/get-started/", 
+            "text": "Create Bot App and Invite\n#\n\n\nCreate a Discord Bot Application\n#\n\n\nGo to \nDiscord Developer Applications Page\n.\n\n\nLog in with your Discord account.\n\n\nClick on the \n+ New App\n button.\n\n\nFill in the App Name (i.e., your bot\ns name), add an optional Avatar and\nDescription for your bot.\n\n\nClick on the \nCreate App\n button.\n\n\nClick on \nCreate a Bot User\n button and confirm that you want to add a bot\nto this app.\n\n\nInvite your Bot to Discord\n#\n\n\nCopy your Bot\ns \nClient ID\n from your \nDiscord Applications page\n.\n\n\nPaste your \nClient ID\n in the input box below.\nThe either click on \nInvite\n button or copy the link in the code block,\nto invite your Bot to your server.\n\n\n\n\nInvite\n\n\n\n  \n\n    \n\n      \n\n        \n\n          \n\n            \n\n          \n\n          \nhttps://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE\nscope=bot\npermissions=2146958591", 
+            "title": "Get Started"
+        }, 
+        {
+            "location": "/get-started/#create-bot-app-and-invite", 
+            "text": "", 
+            "title": "Create Bot App and Invite"
+        }, 
+        {
+            "location": "/get-started/#create-a-discord-bot-application", 
+            "text": "Go to  Discord Developer Applications Page .  Log in with your Discord account.  Click on the  + New App  button.  Fill in the App Name (i.e., your bot s name), add an optional Avatar and\nDescription for your bot.  Click on the  Create App  button.  Click on  Create a Bot User  button and confirm that you want to add a bot\nto this app.", 
+            "title": "Create a Discord Bot Application"
+        }, 
+        {
+            "location": "/get-started/#invite-your-bot-to-discord", 
+            "text": "Copy your Bot s  Client ID  from your  Discord Applications page .  Paste your  Client ID  in the input box below.\nThe either click on  Invite  button or copy the link in the code block,\nto invite your Bot to your server.   Invite  \n   \n     \n       \n         \n           \n             \n           \n           https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE scope=bot permissions=2146958591", 
+            "title": "Invite your Bot to Discord"
+        }, 
+        {
+            "location": "/api-keys/", 
+            "text": "Tip\n\n\nAll the API Keys are optional, and are only required by specific commands,\nthat\ns mentioned in the specific sections. If you do not wish to use any of\nthose commands (yet) you can skip that section or this entire section and\ncan come back here later when you want those.\n\n\n\n\n\n\nNote\n\n\nWhen you get/receive an API key from any of the sections below, keep those\nkeys/tokens/IDs in a file in your local computer where it\ns safe and easy\nto access. You are going to need these keys when you are configuring\nBastion after the installation.\n\n\n\n\nGoogle API Key\n#\n\n\n\n\nRequired by \nmaps\n and \nshorten\n commands.\n\n\n\n\nGo to the \nGoogle API Console\n.\n\n\nCreate a \nnew project\n, name it anything you like. Once the project is\ncreated, click on \nEnable APIs\n.\n\n\nNow, enable \nGoogle Static Maps API\n and \nURL Shortener API\n.\n\n\nOn the left tab, click \nCredentials\n. Then click \nCreate Credentials\n\nbutton. Now click on \nAPI Key\n. A window will popup with your \nGoogle API\nkey.\n\n\nCleverbot API Key\n#\n\n\n\n\nRequired by \nchat\n command. And if you want to chat with Bastion.\n\n\n\n\nGo to the \nCleverbot API site\n.\n\n\nSelect an \nAPI Pack\n as per your requirements. Click on \nAdd to Cart\n /\n\nSign up now\n.\n\n\nInput your details as mentioned. After you complete the signup, you will receive\nan email to verify your account. After you have verified, login to your account.\n\n\nAfter you are successfully logged in to your account, you will see your\n\nAPI Key\n in \nMy Accounds\n section of the website.\n\n\nPUBG API Key\n#\n\n\n\n\nRequired by \npubg\n command.\n\n\n\n\nGo to \nPlayerUnknown\ns Battlegrounds Tracer Network Site\n.\n\n\nLogin/Register your account (Click Login/Register at the top right corner).\nAfter you\nve (registered and) logged in, click on \nGenerate API key\n.\n\n\nFill up the given form with your name, email, website (you can also use\n\nhttps://bastionbot.org\n) and description. After that click on\n\nGenerate API key\n.\n\n\nThen you\nll see your \nAPI Key\n under the Authentication section.\n\n\nBattlefield API Key\n#\n\n\n\n\nRequired by \nbattlefield1\n and \nbattlefield4\n commands.\n\n\n\n\nGo to \nBattlefield Tracer Network Site\n.\n\n\nLogin/Register your account (Click Login/Register at the top right corner).\nAfter you\nve (registered and) logged in, click on \nGenerate API key\n.\n\n\nFill up the given form with your name, email, website (you can also use\n\nhttps://bastionbot.org\n) and description. After that click on\n\nGenerate API key\n.\n\n\nThen you\nll see your \nAPI Key\n under the Authentication section.\n\n\nHiRez API Key\n#\n\n\n\n\nRequired by \npaladins\n command.\n\n\n\n\nFill up the \nHi-Rez Developer Credentials Application Form\n\nwith correct details. Then submit it.\nAfter HiRez Studios have verified you, they will mail you with your\nHiRez \nDevId\n \n \nAuthKey\n.\n\n\n\n\nNote\n\n\nIt generally takes few hours for them you mail you, so you can proceed with\nthe installation, as you can add these to your \ncredentials.json\n file\nanytime later.\n\n\n\n\nTwitch API Key\n#\n\n\n\n\nRequired by \nstreamers\n and \ntwitch\n commands.\n\n\n\n\nRead \nthis article\n on \nHow to get Twitch API Client ID \n Client Secret\n.\n\n\nMusixmatch API Key\n#\n\n\n\n\nRequired by \nlyrics\n command.\n\n\n\n\nVisit \nMusixmatch Developer site\n and signup\nfor a new accout (or signin if you already have one).\n\n\nWhen all the signup steps are completed, you\nll get your Musixmatch API key.\n\n\nThe Movie DB API Key\n#\n\n\n\n\nRequired by \nmovie\n and \ntvShow\n commands.\n\n\n\n\nRead \nThe Movie Database FAQ\n to know how\nto get their API Key.", 
+            "title": "Get API Keys"
+        }, 
+        {
+            "location": "/api-keys/#google-api-key", 
+            "text": "Required by  maps  and  shorten  commands.   Go to the  Google API Console .  Create a  new project , name it anything you like. Once the project is\ncreated, click on  Enable APIs .  Now, enable  Google Static Maps API  and  URL Shortener API .  On the left tab, click  Credentials . Then click  Create Credentials \nbutton. Now click on  API Key . A window will popup with your  Google API\nkey.", 
+            "title": "Google API Key"
+        }, 
+        {
+            "location": "/api-keys/#cleverbot-api-key", 
+            "text": "Required by  chat  command. And if you want to chat with Bastion.   Go to the  Cleverbot API site .  Select an  API Pack  as per your requirements. Click on  Add to Cart  / Sign up now .  Input your details as mentioned. After you complete the signup, you will receive\nan email to verify your account. After you have verified, login to your account.  After you are successfully logged in to your account, you will see your API Key  in  My Accounds  section of the website.", 
+            "title": "Cleverbot API Key"
+        }, 
+        {
+            "location": "/api-keys/#pubg-api-key", 
+            "text": "Required by  pubg  command.   Go to  PlayerUnknown s Battlegrounds Tracer Network Site .  Login/Register your account (Click Login/Register at the top right corner).\nAfter you ve (registered and) logged in, click on  Generate API key .  Fill up the given form with your name, email, website (you can also use https://bastionbot.org ) and description. After that click on Generate API key .  Then you ll see your  API Key  under the Authentication section.", 
+            "title": "PUBG API Key"
+        }, 
+        {
+            "location": "/api-keys/#battlefield-api-key", 
+            "text": "Required by  battlefield1  and  battlefield4  commands.   Go to  Battlefield Tracer Network Site .  Login/Register your account (Click Login/Register at the top right corner).\nAfter you ve (registered and) logged in, click on  Generate API key .  Fill up the given form with your name, email, website (you can also use https://bastionbot.org ) and description. After that click on Generate API key .  Then you ll see your  API Key  under the Authentication section.", 
+            "title": "Battlefield API Key"
+        }, 
+        {
+            "location": "/api-keys/#hirez-api-key", 
+            "text": "Required by  paladins  command.   Fill up the  Hi-Rez Developer Credentials Application Form \nwith correct details. Then submit it.\nAfter HiRez Studios have verified you, they will mail you with your\nHiRez  DevId     AuthKey .   Note  It generally takes few hours for them you mail you, so you can proceed with\nthe installation, as you can add these to your  credentials.json  file\nanytime later.", 
+            "title": "HiRez API Key"
+        }, 
+        {
+            "location": "/api-keys/#twitch-api-key", 
+            "text": "Required by  streamers  and  twitch  commands.   Read  this article  on  How to get Twitch API Client ID   Client Secret .", 
+            "title": "Twitch API Key"
+        }, 
+        {
+            "location": "/api-keys/#musixmatch-api-key", 
+            "text": "Required by  lyrics  command.   Visit  Musixmatch Developer site  and signup\nfor a new accout (or signin if you already have one).  When all the signup steps are completed, you ll get your Musixmatch API key.", 
+            "title": "Musixmatch API Key"
+        }, 
+        {
+            "location": "/api-keys/#the-movie-db-api-key", 
+            "text": "Required by  movie  and  tvShow  commands.   Read  The Movie Database FAQ  to know how\nto get their API Key.", 
+            "title": "The Movie DB API Key"
+        }, 
+        {
+            "location": "/install-linux/", 
+            "text": "Bastion Installation on GNU/Linux\n#\n\n\n\n\nWant to run Bastion 24x7?\n\n\nIf you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a \nDigitalOcean\n\nLinux VPS using \nthis link\n (using this link\nwill be supporting The Bastion Bot project and will give you \n$10\n for\nfree to start with DigitalOcean).\n\n\n\n\nDownload the installer\n#\n\n\nRun the following command to download the Bastion Bot installer that\nll help\nyou install Bastion smooth and easy:\n\n\n1\nwget https://raw.githubusercontent.com/TheBastionBot/Bastion-Scripts/master/BastionInstaller.sh \n chmod +x BastionInstaller.sh\n\n\n\n\n\n\nProceed with the installation\n#\n\n\nNow that you\nve downloaded the installer, it will automatically download and\ninstall everything you\nll need to run Bastion.\n\n\nTo start the installation, run the following command:\n\n\n1\n./BastionInstaller.sh\n\n\n\n\n\n\nWait for a few moments for the installer to finish installing.\n\n\nAfter the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you\nll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress \n Enter\n.\n\n\nAfter you\nre done configuring Bastion, it\nll let you know that the installation\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow, you should have a new folder named \nBastion\n in your \n$HOME\n (\n~\n)\ndirectory.\n\n\nGet Bastion running\n#\n\n\nYou get a \nbastion.sh\n script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:\n\n\n1\n2\ncd\n ~/Bastion \n# Changes the current directory to the `Bastion`, if you aren\nt already there.\n\n./bastion.sh --start \n# Starts Bastion\n\n\n\n\n\n\n\n\n\nPro Tip\n\n\nThe \nbastion.sh\n script can do a whole lot of other things besides just\nhelping you with running \n updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more: \n./bastion.sh", 
+            "title": "Install on Linux"
+        }, 
+        {
+            "location": "/install-linux/#bastion-installation-on-gnulinux", 
+            "text": "Want to run Bastion 24x7?  If you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a  DigitalOcean \nLinux VPS using  this link  (using this link\nwill be supporting The Bastion Bot project and will give you  $10  for\nfree to start with DigitalOcean).", 
+            "title": "Bastion Installation on GNU/Linux"
+        }, 
+        {
+            "location": "/install-linux/#download-the-installer", 
+            "text": "Run the following command to download the Bastion Bot installer that ll help\nyou install Bastion smooth and easy:  1 wget https://raw.githubusercontent.com/TheBastionBot/Bastion-Scripts/master/BastionInstaller.sh   chmod +x BastionInstaller.sh", 
+            "title": "Download the installer"
+        }, 
+        {
+            "location": "/install-linux/#proceed-with-the-installation", 
+            "text": "Now that you ve downloaded the installer, it will automatically download and\ninstall everything you ll need to run Bastion.  To start the installation, run the following command:  1 ./BastionInstaller.sh   Wait for a few moments for the installer to finish installing.  After the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you ll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress   Enter .  After you re done configuring Bastion, it ll let you know that the installation\nwas successfully completed and Bastion is ready to boot up.   Now, you should have a new folder named  Bastion  in your  $HOME  ( ~ )\ndirectory.", 
+            "title": "Proceed with the installation"
+        }, 
+        {
+            "location": "/install-linux/#get-bastion-running", 
+            "text": "You get a  bastion.sh  script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:  1\n2 cd  ~/Bastion  # Changes the current directory to the `Bastion`, if you aren t already there. \n./bastion.sh --start  # Starts Bastion     Pro Tip  The  bastion.sh  script can do a whole lot of other things besides just\nhelping you with running   updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more:  ./bastion.sh", 
+            "title": "Get Bastion running"
+        }, 
+        {
+            "location": "/install-macos/", 
+            "text": "Bastion Installation on macOS\n#\n\n\n\n\nWant to run Bastion 24x7?\n\n\nIf you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a \nDigitalOcean\n\nLinux VPS using \nthis link\n (using this link\nwill be supporting The Bastion Bot project and will give you \n$10\n for\nfree to start with DigitalOcean).\n\n\n\n\nDownload the installer\n#\n\n\nRun the following command to download the Bastion Bot installer that\nll help\nyou install Bastion smooth and easy:\n\n\n1\ncurl -sL https://raw.githubusercontent.com/TheBastionBot/Bastion-Scripts/master/BastionInstaller_macOS.sh -o BastionInstaller.sh \n chmod +x BastionInstaller.sh\n\n\n\n\n\n\nProceed with the installation\n#\n\n\nNow that you\nve downloaded the installer, it will automatically download and\ninstall everything you\nll need to run Bastion.\n\n\nTo start the installation, run the following command:\n\n\n1\n./BastionInstaller.sh\n\n\n\n\n\n\nWait for a few moments for the installer to finish installing.\n\n\nAfter the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you\nll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress \n Enter\n.\n\n\nAfter you\nre done configuring Bastion, it\nll let you know that the installation\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow, you should have a new folder named \nBastion\n in your \n$HOME\n (\n~\n)\ndirectory.\n\n\nGet Bastion running\n#\n\n\nYou get a \nbastion.sh\n script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:\n\n\n1\n2\ncd\n ~/Bastion \n# Changes the current directory to the `Bastion`, if you aren\nt already there.\n\n./bastion.sh --start \n# Starts Bastion\n\n\n\n\n\n\n\n\n\nPro Tip\n\n\nThe \nbastion.sh\n script can do a whole lot of other things besides just\nhelping you with running \n updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more: \n./bastion.sh", 
+            "title": "Install on macOS"
+        }, 
+        {
+            "location": "/install-macos/#bastion-installation-on-macos", 
+            "text": "Want to run Bastion 24x7?  If you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a  DigitalOcean \nLinux VPS using  this link  (using this link\nwill be supporting The Bastion Bot project and will give you  $10  for\nfree to start with DigitalOcean).", 
+            "title": "Bastion Installation on macOS"
+        }, 
+        {
+            "location": "/install-macos/#download-the-installer", 
+            "text": "Run the following command to download the Bastion Bot installer that ll help\nyou install Bastion smooth and easy:  1 curl -sL https://raw.githubusercontent.com/TheBastionBot/Bastion-Scripts/master/BastionInstaller_macOS.sh -o BastionInstaller.sh   chmod +x BastionInstaller.sh", 
+            "title": "Download the installer"
+        }, 
+        {
+            "location": "/install-macos/#proceed-with-the-installation", 
+            "text": "Now that you ve downloaded the installer, it will automatically download and\ninstall everything you ll need to run Bastion.  To start the installation, run the following command:  1 ./BastionInstaller.sh   Wait for a few moments for the installer to finish installing.  After the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you ll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress   Enter .  After you re done configuring Bastion, it ll let you know that the installation\nwas successfully completed and Bastion is ready to boot up.   Now, you should have a new folder named  Bastion  in your  $HOME  ( ~ )\ndirectory.", 
+            "title": "Proceed with the installation"
+        }, 
+        {
+            "location": "/install-macos/#get-bastion-running", 
+            "text": "You get a  bastion.sh  script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:  1\n2 cd  ~/Bastion  # Changes the current directory to the `Bastion`, if you aren t already there. \n./bastion.sh --start  # Starts Bastion     Pro Tip  The  bastion.sh  script can do a whole lot of other things besides just\nhelping you with running   updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more:  ./bastion.sh", 
+            "title": "Get Bastion running"
+        }, 
+        {
+            "location": "/install-win/", 
+            "text": "Bastion Installation on Windows\n#\n\n\n\n\nWant to run Bastion 24x7?\n\n\nIf you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a \nDigitalOcean\n\nLinux VPS using \nthis link\n (using this link\nwill be supporting The Bastion Bot project and will give you \n$10\n for\nfree to start with DigitalOcean).\n\n\n\n\nDownload the installer\n#\n\n\nRight Click here\n\nand Click \nSave Link As\n and Save the file as \nBastionInstaller.cmd\n\n(Bastion Installer for Windows).\n\n\nProceed with the installation\n#\n\n\nNow that you\nve downloaded the installer, it will automatically download and\ninstall everything you\nll need to run Bastion.\n\n\nTo start the installation, \nRight-Click\n the downloaded file and Click\n\nRun as Administrator\n.\n\n\nWait for a few moments for the installer to finish installing.\n\n\nAfter the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you\nll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress \n Enter\n.\n\n\nAfter you\nre done configuring Bastion, it\nll let you know that the installation\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow, you should have a new folder named \nBastion\n in your Windows Desktop.\n\n\nGet Bastion running\n#\n\n\nYou get a \nrun.cmd\n script file that makes it easy to run Bastion without\nany hassle. To start Bastion, \nDouble-Click\n the \nrun.cmd\n file.\n\n\nNow, you will see the status of Bastion in a Command Prompt (CMD) window.\nIf you want to terminate \n stop Bastion, just close the Command Prompt window.", 
+            "title": "Install on Windows"
+        }, 
+        {
+            "location": "/install-win/#bastion-installation-on-windows", 
+            "text": "Want to run Bastion 24x7?  If you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a  DigitalOcean \nLinux VPS using  this link  (using this link\nwill be supporting The Bastion Bot project and will give you  $10  for\nfree to start with DigitalOcean).", 
+            "title": "Bastion Installation on Windows"
+        }, 
+        {
+            "location": "/install-win/#download-the-installer", 
+            "text": "Right Click here \nand Click  Save Link As  and Save the file as  BastionInstaller.cmd \n(Bastion Installer for Windows).", 
+            "title": "Download the installer"
+        }, 
+        {
+            "location": "/install-win/#proceed-with-the-installation", 
+            "text": "Now that you ve downloaded the installer, it will automatically download and\ninstall everything you ll need to run Bastion.  To start the installation,  Right-Click  the downloaded file and Click Run as Administrator .  Wait for a few moments for the installer to finish installing.  After the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you ll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress   Enter .  After you re done configuring Bastion, it ll let you know that the installation\nwas successfully completed and Bastion is ready to boot up.   Now, you should have a new folder named  Bastion  in your Windows Desktop.", 
+            "title": "Proceed with the installation"
+        }, 
+        {
+            "location": "/install-win/#get-bastion-running", 
+            "text": "You get a  run.cmd  script file that makes it easy to run Bastion without\nany hassle. To start Bastion,  Double-Click  the  run.cmd  file.  Now, you will see the status of Bastion in a Command Prompt (CMD) window.\nIf you want to terminate   stop Bastion, just close the Command Prompt window.", 
+            "title": "Get Bastion running"
+        }, 
+        {
+            "location": "/update/", 
+            "text": "Updating Bastion\n#\n\n\nWhen new version of Bastion is released, it brings new features, improvements\nand bug fixes. So, you should always try to have the latest version of Bastion,\nso you can experience it\ns all new features and improvements.\n\n\nTo know when new releases are done, have an eye out on the \n#announcements\n\nchannel of \nThe Bastion Bot: Discord Server\n.\n\n\n\n\nNote\n\n\nBefore updating your Bastion Bot, shutdown your bot using the \nshutdown\n\ncommand in Discord.\n\n\n\n\nUpdating Bastion on Linux/macOS\n#\n\n\nGo to your \nBastion\n directory. If you haven\nt changed the default installation\ndirectory and path, run the following command:\n\n\n1\ncd\n ~/Bastion\n\n\n\n\n\n\nNow that you\nre in the directory where Bastion is installed, running the\nfollowing command will update Bastion and all of it\ns dependencies to the latest\nversion:\n\n\n1\n./bastion.sh --update\n\n\n\n\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, using the following command:\n\n\n1\n./bastion.sh --start\n\n\n\n\n\n\nUpdating Bastion on Windows\n#\n\n\nGo to your Bastion directory (It\ns in your desktop, If you haven\nt changed the\ndefault installation directory and path).\n\n\nRight-Click\n on the \nupdate.cmd\n file and Click \nRun as Administrator\n.\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, by \nDouble-Clicking\n the \nrun.cmd\n file.", 
+            "title": "Update"
+        }, 
+        {
+            "location": "/update/#updating-bastion", 
+            "text": "When new version of Bastion is released, it brings new features, improvements\nand bug fixes. So, you should always try to have the latest version of Bastion,\nso you can experience it s all new features and improvements.  To know when new releases are done, have an eye out on the  #announcements \nchannel of  The Bastion Bot: Discord Server .   Note  Before updating your Bastion Bot, shutdown your bot using the  shutdown \ncommand in Discord.", 
+            "title": "Updating Bastion"
+        }, 
+        {
+            "location": "/update/#updating-bastion-on-linuxmacos", 
+            "text": "Go to your  Bastion  directory. If you haven t changed the default installation\ndirectory and path, run the following command:  1 cd  ~/Bastion   Now that you re in the directory where Bastion is installed, running the\nfollowing command will update Bastion and all of it s dependencies to the latest\nversion:  1 ./bastion.sh --update   Wait for a few moments for the updater to finish updating.  After the updater has updated Bastion, it ll let you know that the update\nwas successfully completed and Bastion is ready to boot up.   Now you can start Bastion, as usual, using the following command:  1 ./bastion.sh --start", 
+            "title": "Updating Bastion on Linux/macOS"
+        }, 
+        {
+            "location": "/update/#updating-bastion-on-windows", 
+            "text": "Go to your Bastion directory (It s in your desktop, If you haven t changed the\ndefault installation directory and path).  Right-Click  on the  update.cmd  file and Click  Run as Administrator .  Wait for a few moments for the updater to finish updating.  After the updater has updated Bastion, it ll let you know that the update\nwas successfully completed and Bastion is ready to boot up.   Now you can start Bastion, as usual, by  Double-Clicking  the  run.cmd  file.", 
+            "title": "Updating Bastion on Windows"
+        }
+    ]
+}

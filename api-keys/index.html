@@ -1,0 +1,784 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Read how to get the API keys that is required by Bastion to achieve it's full potential.">
+      
+      
+        <link rel="canonical" href="https://docs.bastionbot.org/api-keys/">
+      
+      
+        <meta name="author" content="Sankarsan Kampa">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.1, mkdocs-material-2.0.4">
+    
+    
+      
+        <title>Get API Keys - Documentation - Bastion Bot</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application-709eec9410.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-23f75ab9c7.palette.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr-e826f8942a.js"></script>
+    
+    
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Source+Code+Pro">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    
+  </head>
+  
+    
+    
+    
+      <body data-md-color-primary="grey" data-md-color-accent="cyan">
+    
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://docs.bastionbot.org" title="Documentation - Bastion Bot" class="md-header-nav__button md-logo">
+          
+            <img src="../assets/images/BastionLogo_Text_White.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Documentation
+                </span>
+              
+            
+            Get API Keys
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      <!-- 
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/TheBastionBot/BastionBotDocs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      BastionBotDocs
+    </div>
+  </a>
+
+          </div>
+        </div>
+       -->
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../home/" title="Home" class="md-tabs__link">
+          Home
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href=".." title="Documentation" class="md-tabs__link md-tabs__link--active">
+          Documentation
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Main navigation -->
+<nav class="md-nav md-nav--primary" data-md-level="0">
+
+  <!-- Site title -->
+  <label class="md-nav__title md-nav__title--site" for="drawer" style="background-color:#111111;">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../assets/images/BastionLogo_Text_White.png"
+            width="24" height="24" />
+      
+    </span>
+    <!-- Documentation - Bastion Bot -->
+    Documentation
+  </label>
+
+  <!-- Repository containing source -->
+  <!-- 
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/TheBastionBot/BastionBotDocs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      BastionBotDocs
+    </div>
+  </a>
+
+    </div>
+   -->
+
+  <!-- Render item list -->
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../home/" title="The Bastion Bot" class="md-nav__link">
+      The Bastion Bot
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Documentation
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Documentation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Intro" class="md-nav__link">
+      Intro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../get-started/" title="Get Started" class="md-nav__link">
+      Get Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Get API Keys
+      </label>
+    
+    <a href="./" title="Get API Keys" class="md-nav__link md-nav__link--active">
+      Get API Keys
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#google-api-key" title="Google API Key" class="md-nav__link">
+    Google API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleverbot-api-key" title="Cleverbot API Key" class="md-nav__link">
+    Cleverbot API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pubg-api-key" title="PUBG API Key" class="md-nav__link">
+    PUBG API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlefield-api-key" title="Battlefield API Key" class="md-nav__link">
+    Battlefield API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hirez-api-key" title="HiRez API Key" class="md-nav__link">
+    HiRez API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#twitch-api-key" title="Twitch API Key" class="md-nav__link">
+    Twitch API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#musixmatch-api-key" title="Musixmatch API Key" class="md-nav__link">
+    Musixmatch API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-movie-db-api-key" title="The Movie DB API Key" class="md-nav__link">
+    The Movie DB API Key
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      Install
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        Install
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../install-linux/" title="Install on Linux" class="md-nav__link">
+      Install on Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../install-macos/" title="Install on macOS" class="md-nav__link">
+      Install on macOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../install-win/" title="Install on Windows" class="md-nav__link">
+      Install on Windows
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../update/" title="Update" class="md-nav__link">
+      Update
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#google-api-key" title="Google API Key" class="md-nav__link">
+    Google API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleverbot-api-key" title="Cleverbot API Key" class="md-nav__link">
+    Cleverbot API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pubg-api-key" title="PUBG API Key" class="md-nav__link">
+    PUBG API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlefield-api-key" title="Battlefield API Key" class="md-nav__link">
+    Battlefield API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hirez-api-key" title="HiRez API Key" class="md-nav__link">
+    HiRez API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#twitch-api-key" title="Twitch API Key" class="md-nav__link">
+    Twitch API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#musixmatch-api-key" title="Musixmatch API Key" class="md-nav__link">
+    Musixmatch API Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-movie-db-api-key" title="The Movie DB API Key" class="md-nav__link">
+    The Movie DB API Key
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/TheBastionBot/BastionBotDocs/edit/master/docs/api-keys.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Get API Keys</h1>
+                
+                <div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>All the API Keys are optional, and are only required by specific commands,
+that&rsquo;s mentioned in the specific sections. If you do not wish to use any of
+those commands (yet) you can skip that section or this entire section and
+can come back here later when you want those.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When you get/receive an API key from any of the sections below, keep those
+keys/tokens/IDs in a file in your local computer where it&rsquo;s safe and easy
+to access. You are going to need these keys when you are configuring
+Bastion after the installation.</p>
+</div>
+<h2 id="google-api-key">Google API Key<a class="headerlink" href="#google-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>maps</code> and <code>shorten</code> commands.</p>
+</div>
+<p>Go to the <a href="https://console.developers.google.com/">Google API Console</a>.</p>
+<p>Create a <strong>new project</strong>, name it anything you like. Once the project is
+created, click on <strong>Enable APIs</strong>.</p>
+<p>Now, enable <strong>Google Static Maps API</strong> and <strong>URL Shortener API</strong>.</p>
+<p>On the left tab, click <strong>Credentials</strong>. Then click <strong>Create Credentials</strong>
+button. Now click on <strong>API Key</strong>. A window will popup with your <strong>Google API
+key.</strong></p>
+<h2 id="cleverbot-api-key">Cleverbot API Key<a class="headerlink" href="#cleverbot-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>chat</code> command. And if you want to chat with Bastion.</p>
+</div>
+<p>Go to the <a href="https://www.cleverbot.com/api">Cleverbot API site</a>.</p>
+<p>Select an <strong>API Pack</strong> as per your requirements. Click on <strong>Add to Cart</strong> /
+<strong>Sign up now</strong>.</p>
+<p>Input your details as mentioned. After you complete the signup, you will receive
+an email to verify your account. After you have verified, login to your account.</p>
+<p>After you are successfully logged in to your account, you will see your
+<strong>API Key</strong> in <strong>My Accounds</strong> section of the website.</p>
+<h2 id="pubg-api-key">PUBG API Key<a class="headerlink" href="#pubg-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>pubg</code> command.</p>
+</div>
+<p>Go to <a href="https://pubgtracker.com/site-api">PlayerUnknown&rsquo;s Battlegrounds Tracer Network Site</a>.</p>
+<p>Login/Register your account (Click Login/Register at the top right corner).
+After you&rsquo;ve (registered and) logged in, click on <strong>Generate API key</strong>.</p>
+<p>Fill up the given form with your name, email, website (you can also use
+<a href="https://bastionbot.org">https://bastionbot.org</a>) and description. After that click on
+<strong>Generate API key</strong>.</p>
+<p>Then you&rsquo;ll see your <strong>API Key</strong> under the Authentication section.</p>
+<h2 id="battlefield-api-key">Battlefield API Key<a class="headerlink" href="#battlefield-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>battlefield1</code> and <code>battlefield4</code> commands.</p>
+</div>
+<p>Go to <a href="https://battlefieldtracker.com/site-api">Battlefield Tracer Network Site</a>.</p>
+<p>Login/Register your account (Click Login/Register at the top right corner).
+After you&rsquo;ve (registered and) logged in, click on <strong>Generate API key</strong>.</p>
+<p>Fill up the given form with your name, email, website (you can also use
+<a href="https://bastionbot.org">https://bastionbot.org</a>) and description. After that click on
+<strong>Generate API key</strong>.</p>
+<p>Then you&rsquo;ll see your <strong>API Key</strong> under the Authentication section.</p>
+<h2 id="hirez-api-key">HiRez API Key<a class="headerlink" href="#hirez-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>paladins</code> command.</p>
+</div>
+<p>Fill up the <a href="https://fs12.formsite.com/HiRez/form48/secure_index.html">Hi-Rez Developer Credentials Application Form</a>
+with correct details. Then submit it.
+After HiRez Studios have verified you, they will mail you with your
+HiRez <strong>DevId</strong> &amp; <strong>AuthKey</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It generally takes few hours for them you mail you, so you can proceed with
+the installation, as you can add these to your <code>credentials.json</code> file
+anytime later.</p>
+</div>
+<h2 id="twitch-api-key">Twitch API Key<a class="headerlink" href="#twitch-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>streamers</code> and <code>twitch</code> commands.</p>
+</div>
+<p>Read <a href="https://dev.twitch.tv/docs/v5/guides/authentication/#registration">this article</a> on <a href="https://dev.twitch.tv/docs/v5/guides/authentication/#registration">How to get Twitch API Client ID &amp; Client Secret</a>.</p>
+<h2 id="musixmatch-api-key">Musixmatch API Key<a class="headerlink" href="#musixmatch-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>lyrics</code> command.</p>
+</div>
+<p>Visit <a href="https://developer.musixmatch.com/">Musixmatch Developer site</a> and signup
+for a new accout (or signin if you already have one).</p>
+<p>When all the signup steps are completed, you&rsquo;ll get your Musixmatch API key.</p>
+<h2 id="the-movie-db-api-key">The Movie DB API Key<a class="headerlink" href="#the-movie-db-api-key" title="Permanent link">#</a></h2>
+<div class="admonition info">
+<p>Required by <code>movie</code> and <code>tvShow</code> commands.</p>
+</div>
+<p>Read <a href="https://www.themoviedb.org/faq/api">The Movie Database FAQ</a> to know how
+to get their API Key.</p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../get-started/" title="Get Started" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Get Started
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../install-linux/" title="Install on Linux" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Install on Linux
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2017 - The Bastion Bot Project
+          </div>
+        
+        <br><i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="https://sankarsankampa.com" title="Sankarsan Kampa">Sankarsan Kampa</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://github.com/TheBastionBot" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/TheBastionBot" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://discord.gg/fzx8fkt" class="md-footer-social__link fa fa-discord"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application-8e4952e681.js"></script>
+      
+      <script>app.initialize({version:"0.17.1",url:{base:".."}})</script>
+      
+        <script src="../assets/javascripts/extra.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>
