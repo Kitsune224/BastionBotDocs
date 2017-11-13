@@ -1,4 +1,4 @@
-description: Read how to install and configure Bastion Bot, on Linux. One step closer to making your Discord Server AWESOME!
+description: Read how to install and configure Bastion Bot, on Windows. One step closer to making your Discord Server AWESOME!
 
 # Bastion Installation on Windows
 
