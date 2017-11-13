@@ -5,7 +5,7 @@ description: Read how to install and configure Bastion Bot, on macOS. One step c
 !!! tip "Want to run Bastion 24x7?"
     If you want Bastion to serve 24/7 without having to hosting it on your
     PC and want to keep it cheap, reliable and convenient as possible, you can
-    install Bastion, using the following guide, on a [DigitalOcean](https://m.do.co/c/0ee6cb9c7ee0)
+    install Bastion, using the [linux guide](install-linux/), on a [DigitalOcean](https://m.do.co/c/0ee6cb9c7ee0)
     Linux VPS using [this link](https://m.do.co/c/0ee6cb9c7ee0) (using this link
     will be supporting The Bastion Bot project and will give you **$10** for
     free to start with DigitalOcean).
