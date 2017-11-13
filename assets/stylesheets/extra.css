@@ -103,6 +103,27 @@ kbd:active {
  */
 
 /**
+ * Copy to clipboard
+ */
+.md-clipboard {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.5);
+  transition: background .2s ease;
+}
+.md-clipboard:hover {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.95);
+}
+.md-clipboard::before {
+  color: black !important
+}
+.md-clipboard__message {
+  background-color: white;
+  background-color: rgb(255, 255, 255, 0.95);
+  color: black;
+}
+
+/**
  * Default text color and background color
  */
 .md-main {
