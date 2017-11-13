@@ -14,7 +14,7 @@ and we would :heart: corrections and improvements!
 <hr>
 
 To start reading the documentation you can either click **Next** at the bottom
-right corner, or [click here](create-app).
+right corner, or [click here](get-started).
 
 <hr>
 
