@@ -203,7 +203,9 @@ nav.md-nav:not(.md-nav--secondary) .md-nav__title:not(.md-nav__title--site) {
 
 /* Inline Code */
 .md-typeset code {
-  color: black !important
+  background-color: black;
+  color: white;
+  box-shadow: black 0.29412em 0px 0px, black -0.29412em 0px 0px;
 }
 
 /**
