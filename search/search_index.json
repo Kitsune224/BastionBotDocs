@@ -161,41 +161,6 @@
             "title": "Get Bastion running"
         }, 
         {
-            "location": "/install-manual/", 
-            "text": "Installing Bastion Manually\n#\n\n\n\n\nWant to run Bastion 24x7?\n\n\nIf you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a \nDigitalOcean\n\nLinux VPS using \nthis link\n (using this link\nwill be supporting The Bastion Bot project and will give you \n$10\n for\nfree to start with DigitalOcean).\n\n\n\n\nPrerequisites\n#\n\n\nOn Windows\n#\n\n\nWindows doesn\nt have a package manager like we have on GNU/Linux Operating\nSystems, so we need to install a package manager, called \nchocolatey\n.\n\n\nTo install chocolatey, follow these simple steps:\n\n\n\n\nStart a Command Prompt as an Administrator\n.\n\n\nRun the following command:\n\n\n\n\n1\n@\n%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command \niex ((New-Object System.Net.WebClient).DownloadString(\nhttps://chocolatey.org/install.ps1\n))\n \n SET \nPATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin\n\n\n\n\n\n\n\nInstall Node.js\n#\n\n\nRead \nthis guide\n\non Installing Node.js for your Operating System and install it.\n\n\nInstall Git\n#\n\n\nNow that you\nve downloaded the installer, it will automatically download and\ninstall everything you\nll need to run Bastion.\n\n\nTo start the installation, run the following command:\n\n\n1\n./BastionInstaller.sh\n\n\n\n\n\n\nWait for a few moments for the installer to finish installing.\n\n\nAfter the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you\nll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress \n Enter\n.\n\n\nAfter you\nre done configuring Bastion, it\nll let you know that the installation\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow, you should have a new folder named \nBastion\n in your \n$HOME\n (\n~\n)\ndirectory.\n\n\nGet Bastion running\n#\n\n\nYou get a \nbastion.sh\n script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:\n\n\n1\n2\ncd\n ~/Bastion \n# Changes the current directory to the `Bastion`, if you aren\nt already there.\n\n./bastion.sh --start \n# Starts Bastion\n\n\n\n\n\n\n\n\n\nPro Tip\n\n\nThe \nbastion.sh\n script can do a whole lot of other things besides just\nhelping you with running \n updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more: \n./bastion.sh", 
-            "title": "Install Manually"
-        }, 
-        {
-            "location": "/install-manual/#installing-bastion-manually", 
-            "text": "Want to run Bastion 24x7?  If you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a  DigitalOcean \nLinux VPS using  this link  (using this link\nwill be supporting The Bastion Bot project and will give you  $10  for\nfree to start with DigitalOcean).", 
-            "title": "Installing Bastion Manually"
-        }, 
-        {
-            "location": "/install-manual/#prerequisites", 
-            "text": "", 
-            "title": "Prerequisites"
-        }, 
-        {
-            "location": "/install-manual/#on-windows", 
-            "text": "Windows doesn t have a package manager like we have on GNU/Linux Operating\nSystems, so we need to install a package manager, called  chocolatey .  To install chocolatey, follow these simple steps:   Start a Command Prompt as an Administrator .  Run the following command:   1 @ %SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command  iex ((New-Object System.Net.WebClient).DownloadString( https://chocolatey.org/install.ps1 ))    SET  PATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin", 
-            "title": "On Windows"
-        }, 
-        {
-            "location": "/install-manual/#install-nodejs", 
-            "text": "Read  this guide \non Installing Node.js for your Operating System and install it.", 
-            "title": "Install Node.js"
-        }, 
-        {
-            "location": "/install-manual/#install-git", 
-            "text": "Now that you ve downloaded the installer, it will automatically download and\ninstall everything you ll need to run Bastion.  To start the installation, run the following command:  1 ./BastionInstaller.sh   Wait for a few moments for the installer to finish installing.  After the installation is done, it will prompt you to configure Bastion and will\nask you to configure Bastion, type/paste the answers as asked (here you ll be\nneeding your API keys) and if you want to skip any step, just leave it blank and\npress   Enter .  After you re done configuring Bastion, it ll let you know that the installation\nwas successfully completed and Bastion is ready to boot up.   Now, you should have a new folder named  Bastion  in your  $HOME  ( ~ )\ndirectory.", 
-            "title": "Install Git"
-        }, 
-        {
-            "location": "/install-manual/#get-bastion-running", 
-            "text": "You get a  bastion.sh  script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:  1\n2 cd  ~/Bastion  # Changes the current directory to the `Bastion`, if you aren t already there. \n./bastion.sh --start  # Starts Bastion     Pro Tip  The  bastion.sh  script can do a whole lot of other things besides just\nhelping you with running   updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more:  ./bastion.sh", 
-            "title": "Get Bastion running"
-        }, 
-        {
             "location": "/update/", 
             "text": "Updating Bastion\n#\n\n\nWhen new version of Bastion is released, it brings new features, improvements\nand bug fixes. So, you should always try to have the latest version of Bastion,\nso you can experience it\ns all new features and improvements.\n\n\nTo know when new releases are done, have an eye out on the \n#announcements\n\nchannel of \nThe Bastion Bot: Discord Server\n.\n\n\n\n\nNote\n\n\nBefore updating your Bastion Bot, shutdown your bot using the \nshutdown\n\ncommand in Discord.\n\n\n\n\nUpdating Bastion on Linux/macOS\n#\n\n\nGo to your \nBastion\n directory. If you haven\nt changed the default installation\ndirectory and path, run the following command:\n\n\n1\ncd\n ~/Bastion\n\n\n\n\n\n\nNow that you\nre in the directory where Bastion is installed, running the\nfollowing command will update Bastion and all of it\ns dependencies to the latest\nversion:\n\n\n1\n./bastion.sh --update\n\n\n\n\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, using the following command:\n\n\n1\n./bastion.sh --start\n\n\n\n\n\n\nUpdating Bastion on Windows\n#\n\n\nGo to your Bastion directory (It\ns in your desktop, If you haven\nt changed the\ndefault installation directory and path).\n\n\nRight-Click\n on the \nupdate.cmd\n file and Click \nRun as Administrator\n.\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, by \nDouble-Clicking\n the \nrun.cmd\n file.", 
             "title": "Update"
