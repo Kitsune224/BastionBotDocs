@@ -161,6 +161,96 @@
             "title": "Get Bastion running"
         }, 
         {
+            "location": "/install-manual/", 
+            "text": "Installing Bastion Manually\n#\n\n\n\n\nWant to run Bastion 24x7?\n\n\nIf you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a \nDigitalOcean\n\nLinux VPS using \nthis link\n (using this link\nwill be supporting The Bastion Bot project and will give you \n$10\n for\nfree to start with DigitalOcean).\n\n\n\n\nInstall Package Manager\n#\n\n\nOn GNU/Linux\n#\n\n\nVarious distributions of GNU/Linux already comes with an amazing package manager. So,\nif you\nre on linux, you can go to the \nnext step\n.\n\n\nOn macOS\n#\n\n\nmacOS is a very powerful operating system, but unlike GNU/Linux, it doesn\nt come\nwith a package manager. So, we need to install a package manager, called\n\nHomebrew\n,\nwhich will make it super easy to install various applications.\n\n\nTo install Homebrew, follow these simple steps:\n\n\n\n\nOpen a Terminal prompt.\n\n\nRun the following command:\n\n\n\n\n1\n/usr/bin/ruby -e \n$(\ncurl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install\n)\n\n\n\n\n\n\n\nOn Windows\n#\n\n\nWindows doesn\nt have a package manager like we have on GNU/Linux operating\nsystems, so we need to install a package manager, called\n\nChocolatey\n,\nwhich will make it super easy to install various applications.\n\n\nTo install Chocolatey, follow these simple steps:\n\n\n\n\nStart a Command Prompt as an Administrator\n.\n\n\nRun the following command:\n\n\n\n\n1\n@\n%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\n -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command \niex ((New-Object System.Net.WebClient).DownloadString(\nhttps://chocolatey.org/install.ps1\n))\n \n SET \nPATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin\n\n\n\n\n\n\n\nInstall Node.js\n#\n\n\nNode.js\n is what Bastion is built upon. Which makes it extremely important to run\nBastion. Read \nthis guide\n\non installing Node.js for your operating system and install the \n8.9.1 LTS\n\nversion of Node.js.\n\n\nInstall Git\n#\n\n\nGit\n is a source code management software that is needed to track changes in\nBastion\ns source and download/update your local instance of Bastion if/when\nneeded.\nIf you don\nt understand any of that, don\nt worry, you don\nt need to, just visit\nthe \nGit downloads page\n to\ndownload and install Git for your operating system.\n\n\nInstall Dependencies\n#\n\n\nBastion depends on various other software to install and run, you will need to\ninstall those before you can start installing Bastion.\n\n\nOn Linux\n#\n\n\nDebian and Ubuntu based Linux distributions\n\n\n1\n2\nsudo apt-get install build-essential \n# build tools\n\nsudo apt-get install wget curl screen python \n# other dependencies\n\n\n\n\n\n\n\nEnterprise Linux and Fedora\n\n\nIncluding \nRed Hat\n\u00ae \nEnterprise Linux\n\u00ae / \nRHEL\n, \nCentOS\n and \nFedora\n.\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n# If your distribution has yum package manager\n\nsudo yum groupinstall \nDevelopment Tools\n \n# build tools\n\nsudo yum install wget curl screen python \n# other dependencies\n\nnpm install -g ffmpeg-binaries\n\n\n# Or if your distribution has dnf package manager\n\nsudo dnf groupinstall \nDevelopment Tools\n \n# build tools\n\nsudo yum install wget curl screen python \n# other dependencies\n\nnpm install -g ffmpeg-binaries\n\n\n\n\n\n\nOn macOS\n#\n\n\n1\n2\nsudo xcode-select --install \n# xcode-command line tools\n\nsudo brew install wget curl screen python ffmpeg \n# other dependencies\n\n\n\n\n\n\n\nOn Windows\n#\n\n\n1\n2\nnpm install -g windows-build-tools\nchoco install ffmpeg\n\n\n\n\n\n\nDownload Bastion\n#\n\n\nNow that you\nve done all the prerequisites, it\ns time to download Bastion.\nHere\ns how you can do that:\n\n\n\n\nOpen a Terminal (Command Prompt, if you\nre on Windows).\n\n\nDownload (clone) Bastion\ns files from GitHub:\n\n\n\n\n1\n2\n3\n4\n5\n6\n# If you\nre on GNU/Linux\n\n\ncd\n ~ \n git clone -b master -q --depth \n1\n https://github.com/TheBastionBot/Bastion.git\n\n# If you\nre on macOS\n\n\ncd\n \n/Users/\n$USER\n \n git clone -b master -q --depth \n1\n https://github.com/TheBastionBot/Bastion.git\n\n# If you\nre on Windows\n\n\ncd\n %USERPROFILE%\n\\D\nesktop \n git clone -b master -q --depth \n1\n https://github.com/TheBastionBot/Bastion.git\n\n\n\n\n\n\nInstall Bastion Dependencies\n#\n\n\nAfter it has downloaded (cloned) Bastion\ns files, it\ns time to install the\nlocal dependencies required by Bastion.\nTo do that, simply run in the Terminal (Command Prompt, if you\nre on Windows):\n\n\n1\nnpm install --only\n=\nproduction\n\n\n\n\n\n\nConfigure Bastion\n#\n\n\nHere comes the last (but not the least) step, configuring Bastion, before it\ns\nfirst run.\n\n\n\n\nGo to the \nsettings\n directory (folder), that\ns inside the \nBastion\n folder.\n\n\nYou\nll see two files here, \ncredentials_example.json\n and\n    \nconfig_example.json\n.\n\n\nMake duplicate copies of these two files and rename the duplicates to\n    \ncredentials.json\n and \nconfig.json\n respectively.\n\n\nEdit the \ncredentials.json\n and \nconfig.json\n files and make the changes as\n    required and save the file.\n\n\n\n\n\n\nNote\n\n\nIf you\nre on Windows, please don\nt use the \nNotepad\n application that\ncomes with Windows by default, because Notepad doesn\nt support the \nLF\n\nline endings and breaks the file. At least, use a code editor like\n\nNotepad++\n\nor \nAtom\n.\n\n\n\n\nGet Bastion running\n#\n\n\nOn GNU/Linux or macOS\n#\n\n\nYou get a \nbastion.sh\n script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:\n\n\n1\n2\ncd\n ~/Bastion \n# Changes the current directory to the `Bastion`, if you aren\nt already there.\n\n./bastion.sh --start \n# Starts Bastion\n\n\n\n\n\n\n\n\n\nPro Tip\n\n\nThe \nbastion.sh\n script can do a whole lot of other things besides just\nhelping you with running \n updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more: \n./bastion.sh\n\n\n\n\nOn Windows\n#\n\n\nYou get a \nrun.cmd\n script file that makes it easy to run Bastion without\nany hassle. To start Bastion, \nDouble-Click\n the \nrun.cmd\n file.\n\n\nNow, you will see the status of Bastion in a Command Prompt (CMD) window.\nIf you want to terminate \n stop Bastion, just close the Command Prompt window.", 
+            "title": "Install Manually"
+        }, 
+        {
+            "location": "/install-manual/#installing-bastion-manually", 
+            "text": "Want to run Bastion 24x7?  If you want Bastion to serve 24/7 without having to hosting it on your\nPC and want to keep it cheap, reliable and convenient as possible, you can\ninstall Bastion, using the following guide, on a  DigitalOcean \nLinux VPS using  this link  (using this link\nwill be supporting The Bastion Bot project and will give you  $10  for\nfree to start with DigitalOcean).", 
+            "title": "Installing Bastion Manually"
+        }, 
+        {
+            "location": "/install-manual/#install-package-manager", 
+            "text": "", 
+            "title": "Install Package Manager"
+        }, 
+        {
+            "location": "/install-manual/#on-gnulinux", 
+            "text": "Various distributions of GNU/Linux already comes with an amazing package manager. So,\nif you re on linux, you can go to the  next step .", 
+            "title": "On GNU/Linux"
+        }, 
+        {
+            "location": "/install-manual/#on-macos", 
+            "text": "macOS is a very powerful operating system, but unlike GNU/Linux, it doesn t come\nwith a package manager. So, we need to install a package manager, called Homebrew ,\nwhich will make it super easy to install various applications.  To install Homebrew, follow these simple steps:   Open a Terminal prompt.  Run the following command:   1 /usr/bin/ruby -e  $( curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install )", 
+            "title": "On macOS"
+        }, 
+        {
+            "location": "/install-manual/#on-windows", 
+            "text": "Windows doesn t have a package manager like we have on GNU/Linux operating\nsystems, so we need to install a package manager, called Chocolatey ,\nwhich will make it super easy to install various applications.  To install Chocolatey, follow these simple steps:   Start a Command Prompt as an Administrator .  Run the following command:   1 @ %SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe  -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command  iex ((New-Object System.Net.WebClient).DownloadString( https://chocolatey.org/install.ps1 ))    SET  PATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin", 
+            "title": "On Windows"
+        }, 
+        {
+            "location": "/install-manual/#install-nodejs", 
+            "text": "Node.js  is what Bastion is built upon. Which makes it extremely important to run\nBastion. Read  this guide \non installing Node.js for your operating system and install the  8.9.1 LTS \nversion of Node.js.", 
+            "title": "Install Node.js"
+        }, 
+        {
+            "location": "/install-manual/#install-git", 
+            "text": "Git  is a source code management software that is needed to track changes in\nBastion s source and download/update your local instance of Bastion if/when\nneeded.\nIf you don t understand any of that, don t worry, you don t need to, just visit\nthe  Git downloads page  to\ndownload and install Git for your operating system.", 
+            "title": "Install Git"
+        }, 
+        {
+            "location": "/install-manual/#install-dependencies", 
+            "text": "Bastion depends on various other software to install and run, you will need to\ninstall those before you can start installing Bastion.", 
+            "title": "Install Dependencies"
+        }, 
+        {
+            "location": "/install-manual/#on-linux", 
+            "text": "Debian and Ubuntu based Linux distributions  1\n2 sudo apt-get install build-essential  # build tools \nsudo apt-get install wget curl screen python  # other dependencies    Enterprise Linux and Fedora  Including  Red Hat \u00ae  Enterprise Linux \u00ae /  RHEL ,  CentOS  and  Fedora .  1\n2\n3\n4\n5\n6\n7\n8\n9 # If your distribution has yum package manager \nsudo yum groupinstall  Development Tools   # build tools \nsudo yum install wget curl screen python  # other dependencies \nnpm install -g ffmpeg-binaries # Or if your distribution has dnf package manager \nsudo dnf groupinstall  Development Tools   # build tools \nsudo yum install wget curl screen python  # other dependencies \nnpm install -g ffmpeg-binaries", 
+            "title": "On Linux"
+        }, 
+        {
+            "location": "/install-manual/#on-macos_1", 
+            "text": "1\n2 sudo xcode-select --install  # xcode-command line tools \nsudo brew install wget curl screen python ffmpeg  # other dependencies", 
+            "title": "On macOS"
+        }, 
+        {
+            "location": "/install-manual/#on-windows_1", 
+            "text": "1\n2 npm install -g windows-build-tools\nchoco install ffmpeg", 
+            "title": "On Windows"
+        }, 
+        {
+            "location": "/install-manual/#download-bastion", 
+            "text": "Now that you ve done all the prerequisites, it s time to download Bastion.\nHere s how you can do that:   Open a Terminal (Command Prompt, if you re on Windows).  Download (clone) Bastion s files from GitHub:   1\n2\n3\n4\n5\n6 # If you re on GNU/Linux  cd  ~   git clone -b master -q --depth  1  https://github.com/TheBastionBot/Bastion.git # If you re on macOS  cd   /Users/ $USER    git clone -b master -q --depth  1  https://github.com/TheBastionBot/Bastion.git # If you re on Windows  cd  %USERPROFILE% \\D esktop   git clone -b master -q --depth  1  https://github.com/TheBastionBot/Bastion.git", 
+            "title": "Download Bastion"
+        }, 
+        {
+            "location": "/install-manual/#install-bastion-dependencies", 
+            "text": "After it has downloaded (cloned) Bastion s files, it s time to install the\nlocal dependencies required by Bastion.\nTo do that, simply run in the Terminal (Command Prompt, if you re on Windows):  1 npm install --only = production", 
+            "title": "Install Bastion Dependencies"
+        }, 
+        {
+            "location": "/install-manual/#configure-bastion", 
+            "text": "Here comes the last (but not the least) step, configuring Bastion, before it s\nfirst run.   Go to the  settings  directory (folder), that s inside the  Bastion  folder.  You ll see two files here,  credentials_example.json  and\n     config_example.json .  Make duplicate copies of these two files and rename the duplicates to\n     credentials.json  and  config.json  respectively.  Edit the  credentials.json  and  config.json  files and make the changes as\n    required and save the file.    Note  If you re on Windows, please don t use the  Notepad  application that\ncomes with Windows by default, because Notepad doesn t support the  LF \nline endings and breaks the file. At least, use a code editor like Notepad++ \nor  Atom .", 
+            "title": "Configure Bastion"
+        }, 
+        {
+            "location": "/install-manual/#get-bastion-running", 
+            "text": "", 
+            "title": "Get Bastion running"
+        }, 
+        {
+            "location": "/install-manual/#on-gnulinux-or-macos", 
+            "text": "You get a  bastion.sh  script file that makes it easy to run Bastion without\nany hassle, among other things. To start Bastion, run the following command:  1\n2 cd  ~/Bastion  # Changes the current directory to the `Bastion`, if you aren t already there. \n./bastion.sh --start  # Starts Bastion     Pro Tip  The  bastion.sh  script can do a whole lot of other things besides just\nhelping you with running   updating Bastion. Want to find out what else\ncan it do? Just run the following command to know more:  ./bastion.sh", 
+            "title": "On GNU/Linux or macOS"
+        }, 
+        {
+            "location": "/install-manual/#on-windows_2", 
+            "text": "You get a  run.cmd  script file that makes it easy to run Bastion without\nany hassle. To start Bastion,  Double-Click  the  run.cmd  file.  Now, you will see the status of Bastion in a Command Prompt (CMD) window.\nIf you want to terminate   stop Bastion, just close the Command Prompt window.", 
+            "title": "On Windows"
+        }, 
+        {
             "location": "/update/", 
             "text": "Updating Bastion\n#\n\n\nWhen new version of Bastion is released, it brings new features, improvements\nand bug fixes. So, you should always try to have the latest version of Bastion,\nso you can experience it\ns all new features and improvements.\n\n\nTo know when new releases are done, have an eye out on the \n#announcements\n\nchannel of \nThe Bastion Bot: Discord Server\n.\n\n\n\n\nNote\n\n\nBefore updating your Bastion Bot, shutdown your bot using the \nshutdown\n\ncommand in Discord.\n\n\n\n\nUpdating Bastion on Linux/macOS\n#\n\n\nGo to your \nBastion\n directory. If you haven\nt changed the default installation\ndirectory and path, run the following command:\n\n\n1\ncd\n ~/Bastion\n\n\n\n\n\n\nNow that you\nre in the directory where Bastion is installed, running the\nfollowing command will update Bastion and all of it\ns dependencies to the latest\nversion:\n\n\n1\n./bastion.sh --update\n\n\n\n\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, using the following command:\n\n\n1\n./bastion.sh --start\n\n\n\n\n\n\nUpdating Bastion on Windows\n#\n\n\nGo to your Bastion directory (It\ns in your desktop, If you haven\nt changed the\ndefault installation directory and path).\n\n\nRight-Click\n on the \nupdate.cmd\n file and Click \nRun as Administrator\n.\n\n\nWait for a few moments for the updater to finish updating.\n\n\nAfter the updater has updated Bastion, it\nll let you know that the update\nwas successfully completed and Bastion is ready to boot up. \n\n\nNow you can start Bastion, as usual, by \nDouble-Clicking\n the \nrun.cmd\n file.", 
             "title": "Update"
