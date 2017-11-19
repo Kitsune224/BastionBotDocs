@@ -1,4 +1,4 @@
-mkdocs
-mkdocs-material
+mkdocs>=0.17,<0.17.99
+mkdocs-material>=2.0,<2.0.99
 pymdown-extensions
 pygments
