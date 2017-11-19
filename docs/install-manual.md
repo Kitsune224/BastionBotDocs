@@ -2,6 +2,10 @@ description: Read how to install and configure Bastion Bot, manually. One step c
 
 # Installing Bastion Manually
 
+*You can skip this step if you've already installed Bastion using the installer
+from [Windows](install-win), [macOS](install-macos), or [Linux](install-linux)
+installation guide. This guide is for advanced users only.*
+
 !!! tip "Want to run Bastion 24x7?"
     If you want Bastion to serve 24/7 without having to hosting it on your
     PC and want to keep it cheap, reliable and convenient as possible, you can

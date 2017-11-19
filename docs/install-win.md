@@ -2,6 +2,13 @@ description: Read how to install and configure Bastion Bot, on Windows. One step
 
 # Bastion Installation on Windows
 
+*If you are going to install Bastion in any other operating system besides Windows,
+you can skip this step and visit to the appropriate page for the specific guides
+on [macOS](install-macos) or [Linux](install-linux). Or if you are an advanced
+user and want to know what's going on with the installer or want to go through
+the installation step by step, manually (trust me I understand), we have a
+[manual installation guide](install-manual), made just for you!*
+
 !!! tip "Want to run Bastion 24x7?"
     If you want Bastion to serve 24/7 without having to hosting it on your
     PC and want to keep it cheap, reliable and convenient as possible, you can
