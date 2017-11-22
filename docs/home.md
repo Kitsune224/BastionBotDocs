@@ -1,5 +1,5 @@
 title: Redirecting...
-description: d
+description: Visit the homepage of Bastion at https://bastionbot.org
 
 <meta http-equiv="refresh" content="0; URL=https://bastionbot.org/" />
 
