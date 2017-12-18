@@ -44,6 +44,23 @@ an email to verify your account. After you have verified, login to your account.
 After you are successfully logged in to your account, you will see your
 **API Key** in **My Accounds** section of the website.
 
+## Bungie API Key
+
+!!! info ""
+    Required by `destiny2` command. *Not yet implemented.*
+
+Go to [Bungie Applications](https://www.bungie.net/en/Application).
+
+Login/Register your account. After you've (registered and) logged in,
+click on **Create New App**.
+
+Fill up the given form with your name, website (you can also use
+<https://bastionbot.org>) and select the OAuth client type to *Not Applicable*.
+
+Then if you agree to their Terms of Use, click on **Create New App**.
+
+Then you'll see your **API Key** under the **API Keys** section.
+
 ## PUBG API Key
 
 !!! info ""
