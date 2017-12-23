@@ -78,6 +78,8 @@ pages:
       - Install on Windows : 'install-win.md'
       - Install Manually : 'install-manual.md'
     - Update: 'update.md'
+  - Developer:
+    - Documentation: 'dev.md'
 
 # Development
 dev_addr: '0.0.0.0:80'
